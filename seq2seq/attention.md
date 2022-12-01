@@ -46,9 +46,9 @@ Attention은 미분 가능한 key-value function이다.(Differentiable Key-Value
 
 이처럼 linear transform은 encoder라는 구글에 현재 timestep의 decoder output을 검색하고자 할 때, 보다 정보를 잘 가져올 수 있도록 구글링을 잘 하게 만들어주는 역할인 셈이다.
 
-이러한 attention을 수식과 함께 살펴보도록 하자
+이러한 attention을 수식과 함께 살펴보도록 하자  
 $$
-w = \text{softmax}(h_t^{dec}\cdot W_a \cdot {h^{enc}_{1:m}}^T) \\ c = w \cdot {h^{enc}_{1:m}}, \\ \text{where}\ c \in \mathbb{R}^{\text{batch\_size x 1 x hidden\_size}} \  \text{is a context vector, and }\\ W_a \in \mathbb{R}^{\text{hidden\_size x hidden\_size}}
+w = \text{softmax}(h_t^{dec}\cdot W_a \cdot {h^{enc}_{1:m}}^T) \\ c = w \cdot {h^{enc}_{1:m}}, \\ \text{where}\ c \in \mathbb{R}^{\text{batch\_size x 1 x hidden\_size}} \  \text{is a context vector, and }\\ W_a \in \mathbb{R}^{\text{hidden\_size x hidden\_size}}  
 $$
 ![img](https://blog.kakaocdn.net/dn/bGZHkU/btrR2tqlBjl/yhHYSlYnYEBKPQ3RqV9MX0/img.png)
 
@@ -114,7 +114,7 @@ batch 내부의 encoder의 전체 timestep의 hidden state(${h_{1:m}^{enc}}^T$) 
 
 **(위에서의 과정 4)**
 
-계산된 context vector $c$의 shape은 (batch size, 1, m) x (batch size, m, hidden size) = (batch size, 1, hidden size)가 된다
+계산된 context vector $c$의 shape은 (batch size, 1, m) x (batch size, m, hidden size) = (batch size, 1, hidden size)가 된다  
 $$
 \tilde{h}_t^{dec} = \text{tanh}([h_t^{dec};c]\cdot W_{\text{concat}}) \\ \hat{y_t} = \text{softmax}(\tilde{h}_t^{dec} \cdot W_{\text{gen}}) \\ \text{where}\ W_{\text{concat}} \in \mathbb{R}^{\text{(2 x hidden\_size) x hidden\_size}} \  \text{and } W_{\text{gen}} \in \mathbb{R}^{\text{hidden\_size x |V|}}
 $$
