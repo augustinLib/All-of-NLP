@@ -114,7 +114,7 @@ batch 내부의 encoder의 전체 timestep의 hidden state(${h_{1:m}^{enc}}^T$) 
 
 **(위에서의 과정 4)**
 
-계산된 context vector $c$의 shape은 (batch size, 1, m) x (batch size, m, hidden size) = (batch size, 1, hidden size)가 된다  
+계산된 context vector $c$의 shape은 (batch size, 1, m) x (batch size, m, hidden size) = (batch size, 1, hidden size)가 된다. 
 $$
 \tilde{h}_t^{dec} = \text{tanh}([h_t^{dec};c]\cdot W_{\text{concat}}) \\ \hat{y_t} = \text{softmax}(\tilde{h}_t^{dec} \cdot W_{\text{gen}}) \\ \text{where}\ W_{\text{concat}} \in \mathbb{R}^{\text{(2 x hidden\_size) x hidden\_size}} \  \text{and } W_{\text{gen}} \in \mathbb{R}^{\text{hidden\_size x |V|}}
 $$
