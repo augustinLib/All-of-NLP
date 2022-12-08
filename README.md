@@ -10,7 +10,7 @@ NLP와 관련된 아키텍처, 논문 등을 정리한 레포입니다.
 
 - [paper](./paper/)  
 
-    각종 논문들을 읽고 리뷰한 내용들을 모아놓은 곳입니다.
+    각종 논문들을 읽고 리뷰한 내용들을 모아놓은 곳입니다.(아래의 링크는 동일 내용의 게시물 링크입니다.)
     - [Attention-is-all-you-need](https://gbdai.tistory.com/46)
     - [Effective-Approaches-to-Attention-based-Neural-Machine-Translation](https://gbdai.tistory.com/45)
     - [Mixed-Precision-Training](https://gbdai.tistory.com/40)
