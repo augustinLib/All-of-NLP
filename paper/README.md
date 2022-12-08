@@ -10,11 +10,13 @@
 <br>
 
 ### 🚀TISTORY LINK🚀
-
-
-[Neural-Machine-Translation-by-Jointly-Learning-to-Align-and-Translate](https://gbdai.tistory.com/44)  
+[Attention-is-all-you-need](https://gbdai.tistory.com/46)
 
 [Effective-Approaches-to-Attention-based-Neural-Machine-Translation](https://gbdai.tistory.com/45)
 
 [Mixed-Precision-Training](https://gbdai.tistory.com/40)
+
+[Neural-Machine-Translation-by-Jointly-Learning-to-Align-and-Translate](https://gbdai.tistory.com/44)  
+
+
 
