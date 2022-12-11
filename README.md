@@ -14,10 +14,11 @@ directory 이름을 클릭하시면 해당 directory로 바로 이동할 수 있
     각종 논문들을 읽고 리뷰한 내용들을 모아놓은 directory입니다.
     - [Attention-is-all-you-need](https://gbdai.tistory.com/46)
     - [Effective-Approaches-to-Attention-based-Neural-Machine-Translation](https://gbdai.tistory.com/45)
+    - [Improving-Language-Understanding-by-Generative-Pre-Training](https://gbdai.tistory.com/49)
     - [Mixed-Precision-Training](https://gbdai.tistory.com/40)
     - [Neural-Machine-Translation-by-Jointly-Learning-to-Align-and-Translate](https://gbdai.tistory.com/44)
     - [Using-the-Output-Embedding-to-Improve-Language-Models](https://gbdai.tistory.com/48)
-    
+
 
 <br>
 
@@ -30,5 +31,8 @@ RNN(Recurrent Neural Network)에 대한 설명을 정리해놓은 곳입니다.
 
 - [seq2seq](./seq2seq/)  
 시퀀스-투-시퀀스(Sequence-to-Sequence, seq2seq)에 대한 설명과 구현을 정리해놓은 곳입니다.
+  - [시퀀스-투-시퀀스(Sequence-to-Sequence, seq2seq란? - 기본 구조편)](https://gbdai.tistory.com/37)
+  - [Attention이란?-원리부터 masking까지 (General Luong Attention을 기반으로)](https://gbdai.tistory.com/38)
+
 
 
