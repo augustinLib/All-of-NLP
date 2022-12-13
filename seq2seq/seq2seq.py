@@ -6,7 +6,7 @@ from torch.nn.utils.rnn import pad_packed_sequence as unpack
 
 # nn.modules 상속
 # attention은 query를 변환하는 방법인 linear transformation을 학습함
-class Attention(nn.modules):
+class Attention(nn.Module):
     def __init__(self, hidden_size):
         super(Attention, self).__init__()
 
@@ -38,7 +38,7 @@ class Attention(nn.modules):
 
 
 # nn.modules 상속
-class Encoder(nn.modules):
+class Encoder(nn.Module):
     def __init__(self, wordvec_dim, hidden_size, n_layers = 4, dropout_p = .2):
         super(Encoder, self).__init__()
 
@@ -212,12 +212,12 @@ class Seq2Seq(nn.Module):
                 mask += [torch.cat([x.new_ones(1, len).zero_(),
                                     x.new_ones(1, (max_length - len))
                                     ],
-                                   dim= -1)
+                                    dim= -1)
                          ]
             
             else:
                 # sample 문장의 길이가 max_length와 같으면 모든 mask 0으로 채움
-                mask += [x.new_ones(len, 1).zero_()]
+                mask += [x.new_ones(1, len).zero_()]
                 
                 
         mask = torch.cat(mask, dim = 0).bool()
