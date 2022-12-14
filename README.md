@@ -8,16 +8,19 @@ NLP와 관련된 아키텍처, 논문 등을 정리한 레포입니다.
 
 ## 구성
 directory 이름을 클릭하시면 해당 directory로 바로 이동할 수 있습니다.  
-각 구성 요소들의 링크는 동일 내용을 업로드한 저의 티스토리 페이지로 이동하는 링크입니다.  
+**각 구성 요소들의 링크는 동일 내용을 업로드한 저의 티스토리 페이지로 이동하는 링크입니다.**  
 - [paper](./paper/)  
 
     각종 논문들을 읽고 리뷰한 내용들을 모아놓은 directory입니다.
-    - [Attention-is-all-you-need](https://gbdai.tistory.com/46)
-    - [Effective-Approaches-to-Attention-based-Neural-Machine-Translation](https://gbdai.tistory.com/45)
-    - [Improving-Language-Understanding-by-Generative-Pre-Training](https://gbdai.tistory.com/49)
-    - [Mixed-Precision-Training](https://gbdai.tistory.com/40)
-    - [Neural-Machine-Translation-by-Jointly-Learning-to-Align-and-Translate](https://gbdai.tistory.com/44)
-    - [Using-the-Output-Embedding-to-Improve-Language-Models](https://gbdai.tistory.com/48)
+    - [Attention is all you need](https://gbdai.tistory.com/46)
+    - [BERT: Pre training of Deep Bidirectional Transformers for Language Understanding](https://gbdai.tistory.com/50)
+    - [Effective Approaches to Attention based Neural Machine Translation](https://gbdai.tistory.com/45)
+    - [GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding](https://gbdai.tistory.com/51)
+    - [Improving Language Understanding by Generative Pre Training](https://gbdai.tistory.com/49)
+    - [Mixed Precision Training](https://gbdai.tistory.com/40)
+    - [Neural Machine Translation by Jointly Learning to Align and Translate](https://gbdai.tistory.com/44)
+    - [Using the Output Embedding to Improve Language Models](https://gbdai.tistory.com/48)
+  
 
 
 <br>

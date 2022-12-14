@@ -10,16 +10,20 @@
 <br>
 
 ### 🚀TISTORY LINK🚀
-[Attention-is-all-you-need](https://gbdai.tistory.com/46)  
+[Attention is all you need](https://gbdai.tistory.com/46)  
 
-[Effective-Approaches-to-Attention-based-Neural-Machine-Translation](https://gbdai.tistory.com/45)  
+[BERT: Pre training of Deep Bidirectional Transformers for Language Understanding](https://gbdai.tistory.com/50)  
 
-[Improving-Language-Understanding-by-Generative-Pre-Training](https://gbdai.tistory.com/49)  
+[Effective Approaches to Attention based Neural Machine Translation](https://gbdai.tistory.com/45)  
 
-[Mixed-Precision-Training](https://gbdai.tistory.com/40)  
+[GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding](https://gbdai.tistory.com/51)  
 
-[Neural-Machine-Translation-by-Jointly-Learning-to-Align-and-Translate](https://gbdai.tistory.com/44)  
+[Improving Language Understanding by Generative Pre Training](https://gbdai.tistory.com/49)  
 
-[Using-the-Output-Embedding-to-Improve-Language-Models](https://gbdai.tistory.com/48)  
+[Mixed Precision Training](https://gbdai.tistory.com/40)  
+
+[Neural Machine Translation by Jointly Learning to Align and Translate](https://gbdai.tistory.com/44)  
+
+[Using the Output Embedding to Improve Language Models](https://gbdai.tistory.com/48)  
 
 
