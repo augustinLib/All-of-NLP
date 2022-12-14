@@ -83,7 +83,7 @@ BERT를 다양한 down-stream task에 활용하기 위해, BERT의 input represe
 
 본 논문에서는 WordPiece embedding을 사용하였으며, 30000개의 token vocabulary를 사용한다.
 
-
+(본격적으로 이에 대해 다루기 전에 짚고 넘어가야 할 것이 있다. 논문에서는 "sentence"가 실제 언어적인 문장이 아닌, contiguous text(연속된 텍스트)의 임의적인 범위가 될 수 있으며, "sequence"의 경우 BERT에 대한 input token sequence를 의미하며, 하나의 "sentence"혹은 두 개의 "sentence"가 함께 packed 될 수 있다고 명시한다.)
 
 우선, 모든 sequence의 시작 부분에 [CLS] token를 추가한다. 해당 [CLS] token은 transformer 전체층을 다 거치고 나면 token sequence의 결합된 의미를 가지게 되는데, 여기에 **classifier(feed-forward network와 softmax 함수를 이용)를 붙이면 단일 문장, 또는 연속된 문장의 classification을 할 수 있다**. 이러한 특성 때문에 이는 곧 classification task에서 사용된다.
 
@@ -193,9 +193,7 @@ Question Answering(QA)이나 Natural Language Inferenced(NLI)와 같은 task는 
 
 
 
-먼저, 각각의 pre-training example에서 문장 A, B를 고른다. (Question Answering(QA)에서는 Question과 Answer로 주어지는 pair of sentence일 것이고, Natural Language Inferenced(NLI)에서는 해당 상황에 대한 pair of sentence일 것이다)
-
-
+먼저, 각각의 pre-training example에서 문장 A, B를 고른다.  
 
 이후 해당 pair of sentence의 50%는 문장 A 다음에 오는 문장 B를 그대로 유지한 다음 IsNext라고 labeling 하고, 나머지 50%에 대해서는 corpus의 문장 중에서 random 하게 치환한 다음 NotNext라고 labeling 한다. (위에서 binary next sentence-prediction라고 언급한 이유는 이렇게 IsNext와 NotNext를 분류하는 이진 분류 task이기 때문이다)
 
