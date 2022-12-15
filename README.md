@@ -19,6 +19,7 @@ directory 이름을 클릭하시면 해당 directory로 바로 이동할 수 있
     - [Improving Language Understanding by Generative Pre Training](https://gbdai.tistory.com/49)
     - [Mixed Precision Training](https://gbdai.tistory.com/40)
     - [Neural Machine Translation by Jointly Learning to Align and Translate](https://gbdai.tistory.com/44)
+    - [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://gbdai.tistory.com/52)
     - [Using the Output Embedding to Improve Language Models](https://gbdai.tistory.com/48)
   
 

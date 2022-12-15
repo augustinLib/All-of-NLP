@@ -24,6 +24,8 @@
 
 [Neural Machine Translation by Jointly Learning to Align and Translate](https://gbdai.tistory.com/44)  
 
+[RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://gbdai.tistory.com/52)
+
 [Using the Output Embedding to Improve Language Models](https://gbdai.tistory.com/48)  
 
 
