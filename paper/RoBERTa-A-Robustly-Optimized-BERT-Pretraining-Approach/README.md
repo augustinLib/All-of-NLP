@@ -155,6 +155,18 @@ static masking으로 재 구현한 경우에는 original BERT와 비슷한 성�
 
 [딥러닝 사전학습 언어모델 기술 동향](https://ettrends.etri.re.kr/ettrends/183/0905183002/)
 
+(2022/12/20 추가)
+
+구글 BERT의 정석 교재의 출판사인 한빛출판네트워크에서 답변을 받게 되었다.
+
+![appendix1](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbYFFa6%2FbtrT4pTJYke%2FtW603gz2kGz304MfCrHL61%2Fimg.png)
+
+
+
+위에서 설명한 내용이 맞다는 내용이었고, 해당 내용 관련하여 수정될 예정이라고 한다. 
+
+
+
 ### **Model input format and Next sentence Prediction**
 
 Original BERT에서는 NSP를 사용하였고, 이러한 NSP loss를 보조 목적 함수로 두어 pre-training을 진행하였다.
