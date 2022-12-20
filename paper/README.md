@@ -20,11 +20,15 @@
 
 [Improving Language Understanding by Generative Pre Training](https://gbdai.tistory.com/49)  
 
+Language Models are Unsupervised Multitask Learners(on review)
+
 [Mixed Precision Training](https://gbdai.tistory.com/40)  
 
 [Neural Machine Translation by Jointly Learning to Align and Translate](https://gbdai.tistory.com/44)  
 
 [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://gbdai.tistory.com/52)
+
+[The Natural Language Decathlon- Multitask Learning as Question Answering](https://gbdai.tistory.com/56)
 
 [Using the Output Embedding to Improve Language Models](https://gbdai.tistory.com/48)  
 
