@@ -20,7 +20,7 @@
 
 [Improving Language Understanding by Generative Pre Training](https://gbdai.tistory.com/49)  
 
-Language Models are Unsupervised Multitask Learners(on review)
+[Language Models are Unsupervised Multitask Learners](https://gbdai.tistory.com/57)
 
 [Mixed Precision Training](https://gbdai.tistory.com/40)  
 
