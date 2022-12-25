@@ -19,6 +19,7 @@ directory 이름을 클릭하시면 해당 directory로 바로 이동할 수 있
     - [Improving Language Understanding by Generative Pre Training](https://gbdai.tistory.com/49)
     - [Language Models are Unsupervised Multitask Learners](https://gbdai.tistory.com/57)
     - [Mixed Precision Training](https://gbdai.tistory.com/40)
+    - [Multilingual Language Processing From Bytes](https://gbdai.tistory.com/58)
     - [Neural Machine Translation by Jointly Learning to Align and Translate](https://gbdai.tistory.com/44)
     - [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://gbdai.tistory.com/52)
     - [The Natural Language Decathlon- Multitask Learning as Question Answering](https://gbdai.tistory.com/56)
