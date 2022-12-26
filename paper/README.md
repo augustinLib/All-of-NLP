@@ -16,6 +16,8 @@
 
 [Effective Approaches to Attention based Neural Machine Translation](https://gbdai.tistory.com/45)  
 
+FEVER- a large-scale dataset for Fact Extraction and VERification (on reivew)  
+
 [GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding](https://gbdai.tistory.com/51)  
 
 [Improving Language Understanding by Generative Pre Training](https://gbdai.tistory.com/49)  
