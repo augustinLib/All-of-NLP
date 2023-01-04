@@ -10,6 +10,8 @@
 <br>
 
 ### 🚀TISTORY LINK🚀
+Adam: A Method for Stochastic Optimization (Only Implement)
+
 [Attention is all you need](https://gbdai.tistory.com/46)  
 
 [BERT: Pre training of Deep Bidirectional Transformers for Language Understanding](https://gbdai.tistory.com/50)  

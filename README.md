@@ -12,6 +12,7 @@ directory 이름을 클릭하시면 해당 directory로 바로 이동할 수 있
 - [paper](./paper/)  
 
     각종 논문들을 읽고 리뷰한 내용들을 모아놓은 directory입니다.
+    - Adam: A Method for Stochastic Optimization (Only Implement)
     - [Attention is all you need](https://gbdai.tistory.com/46)
     - [BERT: Pre training of Deep Bidirectional Transformers for Language Understanding](https://gbdai.tistory.com/50)
     - [Effective Approaches to Attention based Neural Machine Translation](https://gbdai.tistory.com/45)
