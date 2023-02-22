@@ -16,7 +16,7 @@ Adam: A Method for Stochastic Optimization (Only Implement)
 
 [BERT: Pre training of Deep Bidirectional Transformers for Language Understanding](https://gbdai.tistory.com/50)  
 
-Big Bird: Transformers for Longer Sequences  
+[Big Bird: Transformers for Longer Sequences  ](https://gbdai.tistory.com/60)
 
 [Effective Approaches to Attention based Neural Machine Translation](https://gbdai.tistory.com/45)  
 

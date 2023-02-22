@@ -15,7 +15,7 @@ directory 이름을 클릭하시면 해당 directory로 바로 이동할 수 있
     - Adam: A Method for Stochastic Optimization (Only Implement)
     - [Attention is all you need](https://gbdai.tistory.com/46)
     - [BERT: Pre training of Deep Bidirectional Transformers for Language Understanding](https://gbdai.tistory.com/50)
-    - Big Bird: Transformers for Longer Sequences
+    - [Big Bird: Transformers for Longer Sequences  ](https://gbdai.tistory.com/60)
     - [Effective Approaches to Attention based Neural Machine Translation](https://gbdai.tistory.com/45)
     - [GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding](https://gbdai.tistory.com/51)
     - FEVER- a large-scale dataset for Fact Extraction and VERification (on reivew)  
