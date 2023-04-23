@@ -36,6 +36,8 @@ FEVER- a large-scale dataset for Fact Extraction and VERification (on reivew)
 
 [Neural Machine Translation by Jointly Learning to Align and Translate](https://gbdai.tistory.com/44)  
 
+[REALM: Retrieval-Augmented Language Model Pre-Training](https://gbdai.tistory.com/63)  
+
 [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://gbdai.tistory.com/52)
 
 [Self-Attention with Relative Position Representations](https://gbdai.tistory.com/61)
