@@ -22,7 +22,7 @@ Adam: A Method for Stochastic Optimization (Only Implement)
 
 [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://gbdai.tistory.com/62)
 
-FEVER- a large-scale dataset for Fact Extraction and VERification (on reivew)  
+FEVER- a large-scale dataset for Fact Extraction and VERification
 
 [GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding](https://gbdai.tistory.com/51)  
 
@@ -37,6 +37,8 @@ FEVER- a large-scale dataset for Fact Extraction and VERification (on reivew)
 [Neural Machine Translation by Jointly Learning to Align and Translate](https://gbdai.tistory.com/44)  
 
 [REALM: Retrieval-Augmented Language Model Pre-Training](https://gbdai.tistory.com/63)  
+
+[REPLUG: Retrieval-Augmented Black-Box Language Models](https://gbdai.tistory.com/64)  
 
 [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://gbdai.tistory.com/52)
 
