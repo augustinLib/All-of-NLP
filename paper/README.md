@@ -40,6 +40,8 @@ FEVER- a large-scale dataset for Fact Extraction and VERification
 
 [REPLUG: Retrieval-Augmented Black-Box Language Models](https://gbdai.tistory.com/64)  
 
+[Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://gbdai.tistory.com/67)  
+
 [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://gbdai.tistory.com/52)
 
 [Self-Attention with Relative Position Representations](https://gbdai.tistory.com/61)

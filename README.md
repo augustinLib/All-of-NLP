@@ -27,6 +27,7 @@ directory 이름을 클릭하시면 해당 directory로 바로 이동할 수 있
     - [Neural Machine Translation by Jointly Learning to Align and Translate](https://gbdai.tistory.com/44)
     - [REALM: Retrieval-Augmented Language Model Pre-Training](https://gbdai.tistory.com/63)
     - [REPLUG: Retrieval-Augmented Black-Box Language Models](https://gbdai.tistory.com/64)  
+    - [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://gbdai.tistory.com/67)  
     - [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://gbdai.tistory.com/52)
     - [Self-Attention with Relative Position Representations](https://gbdai.tistory.com/61)
     - [The Natural Language Decathlon- Multitask Learning as Question Answering](https://gbdai.tistory.com/56)
