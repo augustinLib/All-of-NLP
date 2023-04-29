@@ -22,6 +22,7 @@ directory 이름을 클릭하시면 해당 directory로 바로 이동할 수 있
     - FEVER- a large-scale dataset for Fact Extraction and VERification
     - [Improving Language Understanding by Generative Pre Training](https://gbdai.tistory.com/49)
     - [Language Models are Unsupervised Multitask Learners](https://gbdai.tistory.com/57)
+    - [Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering](https://gbdai.tistory.com/68)  
     - [Mixed Precision Training](https://gbdai.tistory.com/40)
     - [Multilingual Language Processing From Bytes](https://gbdai.tistory.com/58)
     - [Neural Machine Translation by Jointly Learning to Align and Translate](https://gbdai.tistory.com/44)

@@ -28,7 +28,9 @@ FEVER- a large-scale dataset for Fact Extraction and VERification
 
 [Improving Language Understanding by Generative Pre Training](https://gbdai.tistory.com/49)  
 
-[Language Models are Unsupervised Multitask Learners](https://gbdai.tistory.com/57)
+[Language Models are Unsupervised Multitask Learners](https://gbdai.tistory.com/57)  
+
+[Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering](https://gbdai.tistory.com/68)  
 
 [Mixed Precision Training](https://gbdai.tistory.com/40)  
 
