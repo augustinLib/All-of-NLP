@@ -20,9 +20,11 @@ Adam: A Method for Stochastic Optimization (Only Implement)
 
 [Effective Approaches to Attention based Neural Machine Translation](https://gbdai.tistory.com/45)  
 
-[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://gbdai.tistory.com/62)
+[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://gbdai.tistory.com/62)  
 
-FEVER- a large-scale dataset for Fact Extraction and VERification
+FEVER- a large-scale dataset for Fact Extraction and VERification  
+
+[Finetuned Language Models Are Zero-Shot Learners](https://gbdai.tistory.com)  
 
 [GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding](https://gbdai.tistory.com/51)  
 
