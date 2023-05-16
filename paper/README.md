@@ -24,7 +24,7 @@ Adam: A Method for Stochastic Optimization (Only Implement)
 
 FEVER- a large-scale dataset for Fact Extraction and VERification  
 
-[Finetuned Language Models Are Zero-Shot Learners](https://gbdai.tistory.com)  
+[Finetuned Language Models Are Zero-Shot Learners](https://gbdai.tistory.com/70)  
 
 [GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding](https://gbdai.tistory.com/51)  
 
