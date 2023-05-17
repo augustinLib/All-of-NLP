@@ -52,5 +52,7 @@ FEVER- a large-scale dataset for Fact Extraction and VERification
 
 [The Natural Language Decathlon- Multitask Learning as Question Answering](https://gbdai.tistory.com/56)
 
+[Training language models to follow instructions with human feedback](https://gbdai.tistory.com)  
+
 [Using the Output Embedding to Improve Language Models](https://gbdai.tistory.com/48)  
 

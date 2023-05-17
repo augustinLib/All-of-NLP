@@ -33,6 +33,7 @@ directory 이름을 클릭하시면 해당 directory로 바로 이동할 수 있
     - [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://gbdai.tistory.com/52)
     - [Self-Attention with Relative Position Representations](https://gbdai.tistory.com/61)
     - [The Natural Language Decathlon- Multitask Learning as Question Answering](https://gbdai.tistory.com/56)
+    - [Training language models to follow instructions with human feedback](https://gbdai.tistory.com)  
     - [Using the Output Embedding to Improve Language Models](https://gbdai.tistory.com/48)
   
 
