@@ -38,6 +38,8 @@ FEVER- a large-scale dataset for Fact Extraction and VERification
 
 [Multilingual Language Processing From Bytes](https://gbdai.tistory.com/58)  
 
+[Multitask Prompted Training Enables Zero-Shot Task Generalization](https://gbdai.tistory.com/71)  
+
 [Neural Machine Translation by Jointly Learning to Align and Translate](https://gbdai.tistory.com/44)  
 
 [REALM: Retrieval-Augmented Language Model Pre-Training](https://gbdai.tistory.com/63)  
