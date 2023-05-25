@@ -53,6 +53,15 @@ RNN(Recurrent Neural Network)에 대한 설명을 정리해놓은 곳입니다.
   - [Attention이란?-원리부터 masking까지 (General Luong Attention을 기반으로)](https://gbdai.tistory.com/38)
 
 
+<br>
+
+- [Dataset](./Dataset/)  
+Benchmark dataset 및 training dataset 관련 내용을 정리해놓은 곳입니다.
+  - [Benchmark](./Dataset/Benchmark/)
+  - [Training](./Dataset/Training/)
+
+<br>
+
 ## Paper Map
 see paper NLP_paper map in [here](https://github.com/augustinLib/NLP-Paper-Map)
 
