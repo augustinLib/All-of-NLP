@@ -1,5 +1,5 @@
 # All-of-NLP
-Repository of all NLP-related things(architecture, papers...etc)
+Repository of all NLP-related things(implement, papers...etc)
 
 NLP와 관련된 아키텍처, 논문 등을 정리한 레포입니다.  
 깃허브 마크다운 LaTex 렌더링 이슈로 인헤, 각 설명 문서 당 .pdf와 markdown 두 개의 버전으로 올렸습니다.  
