@@ -52,7 +52,6 @@ RNN(Recurrent Neural Network)에 대한 설명을 정리해놓은 곳입니다.
   - [시퀀스-투-시퀀스(Sequence-to-Sequence, seq2seq란? - 기본 구조편)](https://gbdai.tistory.com/37)
   - [Attention이란?-원리부터 masking까지 (General Luong Attention을 기반으로)](https://gbdai.tistory.com/38)
 
-
 <br>
 
 - [Dataset](./Dataset/)  
