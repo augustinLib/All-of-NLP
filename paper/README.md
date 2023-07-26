@@ -18,6 +18,8 @@ Adam: A Method for Stochastic Optimization (Only Implement)
 
 [Big Bird: Transformers for Longer Sequences  ](https://gbdai.tistory.com/60)
 
+Dense Passage Retrieval for Open-Domain Question Answering
+
 [Effective Approaches to Attention based Neural Machine Translation](https://gbdai.tistory.com/45)  
 
 [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://gbdai.tistory.com/62)  
