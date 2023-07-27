@@ -46,7 +46,7 @@ Inverse cloze task(ICT) objective로 dense retriever에 대해 additional pre-tr
 
 본 연구에서 제안하는 dense passage retriever(DPR)는 open-domain QA task에서 사용되는 retriever이며, passage(document)들을 low-dimensional and continuous space에서 indexing하고, 이를 바탕으로 효과적으로 input text와 관련있는 top-k개의 passage를 retrieve함이 목적이다. 아래의 figure는 이 과정을 나타낸다.
 
-![Untitled](Dense%20Passage%20Retrieval%20for%20Open-Domain%20Question%20A%203f9b4fc31ac44bd3b393977c37718732/Untitled.png)
+![1](https://github.com/augustinLib/All-of-NLP/assets/74291999/d4210f95-0a59-4649-a887-25b48527e437)
 
 ## Overview
 
@@ -56,9 +56,7 @@ DPR이 위의 목적을 달성하기 위해서는, 우선적으로 passage를 lo
 
 이렇게 두 encoder를 통해 만들어진 두 representation의 유사도를 구하여 relevant top-k passage를 선정하게 된다. 본 연구에서는 아래와 같이 dot product로 두 representation간 유사도를 측정한다
 
-$$
-\text{sim}(q,p)=E_Q(q)^{T}E_P(p)
-$$
+![2](https://github.com/augustinLib/All-of-NLP/assets/74291999/a6987418-399e-4f2d-a2a5-0672a00b2c97)
 
 저자들은 inner product 외에도 decomposable similarity function인 L2 norm, cosine similarity등에 대해 비교 실험을 진행하였다고 한다. 그 결과, 다른 similarity function들도 잘 작동한다는 것을 확인했지만, inner product가 가장 simple한 function이기에 inner product를 채택하였다고 한다
 
@@ -70,9 +68,7 @@ DPR을 학습시킨다는 것은, representation을 잘 만들어내는 encoder�
 
 즉, question과 passage 쌍이 서로 관련있으면 smaller distance를 가지고, 관련이 없으면 bigger distance를 가지는 representation을 산출하는 encoder로 만들어간다는 것인데, 이를 위한 loss function은 아래와 같다
 
-$$
-L(q_i, p_{i}^{+}, p_{i,1}^{-},\dots,p_{i,n}^{-}) \\ =-\log{\frac{e^{\text{sim}(q_i,p_{i}^{+})}}{e^{\text{sim}(q_i,p_{i}^{+})}+\sum_{j=1}^{n}e^{\text{sim}(q_i,p_{i,j}^{-})}}}
-$$
+![3](https://github.com/augustinLib/All-of-NLP/assets/74291999/ea91e20e-ed1f-4b3a-8778-eedd9ef38757)
 
 또한, $m$개의 instance로 구성된 Training Dataset $\mathcal{D}$는 $\mathcal{D} = \{\langle q_i, p_{i}^{+}, p_{i,1}^{-},\dots,p_{i,n}^{-}\rangle\}$이라고 하며, 위 수식에서 각각의 요소들은 아래와 같은 뜻을 가진다
 
@@ -96,7 +92,7 @@ $$
 
 이들에 대한 전반적인 과정을 나타내는 figure는 아래와 같다
 
-![Untitled](Dense%20Passage%20Retrieval%20for%20Open-Domain%20Question%20A%203f9b4fc31ac44bd3b393977c37718732/Untitled%201.png)
+![4](https://github.com/augustinLib/All-of-NLP/assets/74291999/4267df13-5747-401e-b334-e11d312f96c8)
 
 이에 대한 비교 실험 결과, 같은 mini-batch 안에 있는 다른 question의 positive passage들을 negative passage로 사용하고(Gold), 하나의 BM25 passage를 더해준 조합이 가장 성능이 좋았다고 한다.
 
@@ -110,13 +106,13 @@ $$
 
 아래는 해당 과정을 나타내는 figure이다
 
-![Untitled](Dense%20Passage%20Retrieval%20for%20Open-Domain%20Question%20A%203f9b4fc31ac44bd3b393977c37718732/Untitled%202.png)
+![5](https://github.com/augustinLib/All-of-NLP/assets/74291999/1be7d726-9acc-4673-8654-8e09aaac08ec)
 
 이때, 각각의 question과 passage를 $q_i$, $p_i$라고 할 때, $i=j$이면 positive(relevant) passage, $i \neq j$이면 negative(irrelevant) passage라고 할 수 있다
 
 이를 적용하여 figure를 다시 만들어보면 아래와 같은 결과가 나온다
 
-![Untitled](Dense%20Passage%20Retrieval%20for%20Open-Domain%20Question%20A%203f9b4fc31ac44bd3b393977c37718732/Untitled%203.png)
+![6](https://github.com/augustinLib/All-of-NLP/assets/74291999/d824ed6b-2965-48af-91bb-9e9c235a6686)
 
 저자들은 이렇게 구해진 similarity matrix를 학습 시 재사용하여, 효율적으로 mini-batch 안에 있는 question-passage pair에 대해 학습하였다고 한다.
 
@@ -140,7 +136,7 @@ $$
 
 저자들은 아래와 같은 dataset을 사용했다고 한다
 
-![Untitled](Dense%20Passage%20Retrieval%20for%20Open-Domain%20Question%20A%203f9b4fc31ac44bd3b393977c37718732/Untitled%204.png)
+<img width="488" alt="7" src="https://github.com/augustinLib/All-of-NLP/assets/74291999/8664ed8b-68cb-409f-92ff-89a38e50134f">
 
 ### Selection of positive passage
 
@@ -174,9 +170,7 @@ SQuAD와 NaturalQuestions의 경우, 기본적으로 passage까지 주어지지�
 
 추가적으로, 각 setting에 대해 DPR 단독으로 사용했을때와, BM25와 DPR을 같이 사용하는 setting에 대해서도 성능 측정을 하였다. 이런 경우네는 우선 DPR과 BM25 각각 top-2000 passage를 retrieve한 다음, 아래의 수식을 이용하여 rerank를 진행하여 최종적으로 retrieve될 passage를 산출하였다고 한다.
 
-$$
-\text{BM25}(q,p) + \lambda \cdot \text{sim}(q,p)
-$$
+![8](https://github.com/augustinLib/All-of-NLP/assets/74291999/3405ff12-d74e-4e92-9ee1-52c6cbe2c08f)
 
 (본 연구에서는 $\lambda = 1.1$을  사용했다고 한다)
 
@@ -184,7 +178,7 @@ $$
 
 이에 대한 결과는 아래와 같다
 
-![Untitled](Dense%20Passage%20Retrieval%20for%20Open-Domain%20Question%20A%203f9b4fc31ac44bd3b393977c37718732/Untitled%205.png)
+![9](https://github.com/augustinLib/All-of-NLP/assets/74291999/2ef1c75a-1d5a-4b0c-a3c0-7a78fced641d)
 
 SQuAD dataset을 제외한 모든 dataset에서 DPR이 BM25에 비해 더 좋은 성능을 내는 것을 확인할 수 있다.
 
@@ -205,7 +199,7 @@ SQuAD dataset을 제외한 모든 dataset에서 DPR이 BM25에 비해 더 좋은
 
 먼저, 저자들은 good passage retrieval performance를 얻기 위해 얼마나 많은 training example이 필요한지에 대한 실험을 진행하였다. 해당 실험의 결과는 아래와 같다
 
-![Untitled](Dense%20Passage%20Retrieval%20for%20Open-Domain%20Question%20A%203f9b4fc31ac44bd3b393977c37718732/Untitled%206.png)
+<img width="481" alt="10" src="https://github.com/augustinLib/All-of-NLP/assets/74291999/c85d56f2-f09b-4d40-9107-0399da27643e">
 
 단지 1000개의 training example을 사용한 순간부터도 DPR이 BM25의 성능을 능가함을 확인할 수 있다. 이러한 결과는 작은 수의 question-passage pair로도 high-quality dense retriever를 학습시킬 수 있다는 점을 시사한다.
 
@@ -215,7 +209,7 @@ SQuAD dataset을 제외한 모든 dataset에서 DPR이 BM25에 비해 더 좋은
 
 이어서, 저자들은 각각 다른 training schemes들에 대해서 NQ dataset의 dev set으로 성능 측정 및 비교를 진행하였다. 해당 결과는 아래와 같다
 
-![Untitled](Dense%20Passage%20Retrieval%20for%20Open-Domain%20Question%20A%203f9b4fc31ac44bd3b393977c37718732/Untitled%207.png)
+<img width="481" alt="11" src="https://github.com/augustinLib/All-of-NLP/assets/74291999/f8893e36-7490-43f7-8ad4-7093bf90c726">
 
 결과 표를 보면, 3개의 block으로 나눠져있음을 확인할 수 있다.
 
@@ -254,7 +248,7 @@ SQuAD dataset을 제외한 모든 dataset에서 DPR이 BM25에 비해 더 좋은
 
 BM25는 selective keyword에 더 민감하게 반응하고, DPR은 의미적 관계나 어휘적 변형을 더 잘 포착했다고 한다. 아래는 두 retriever가 같은 question에 대해 retrieve한 passage의 예시이다
 
-![Untitled](Dense%20Passage%20Retrieval%20for%20Open-Domain%20Question%20A%203f9b4fc31ac44bd3b393977c37718732/Untitled%208.png)
+![12](https://github.com/augustinLib/All-of-NLP/assets/74291999/9674fc8a-098b-4c74-8e94-fc596b1e9e00)
 
 첫 번째 행은 DPR이 더 잘 retrieve한 경우이고, 두 번째는 BM25가 더 잘 retrieve한 경우이다.
 
@@ -268,6 +262,6 @@ BM25는 selective keyword에 더 민감하게 반응하고, DPR은 의미적 관
 
 결과는 아래와 같다
 
-![Untitled](Dense%20Passage%20Retrieval%20for%20Open-Domain%20Question%20A%203f9b4fc31ac44bd3b393977c37718732/Untitled%209.png)
+![13](https://github.com/augustinLib/All-of-NLP/assets/74291999/84abb7b8-fe10-4452-9ee1-6152a5f61b17)
 
 DPR을 사용한 ODQA system이 SQuAD를 제외한 모든 dataset에서 가장 좋은 성능을 낸 것을 확인할 수 있다.
