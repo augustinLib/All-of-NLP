@@ -20,6 +20,8 @@ Adam: A Method for Stochastic Optimization (Only Implement)
 
 [Dense Passage Retrieval for Open-Domain Question Answering](https://gbdai.tistory.com/72)
 
+Direct Fact Retrieval from Knowledge Graphs without Entity Linking
+
 [Effective Approaches to Attention based Neural Machine Translation](https://gbdai.tistory.com/45)  
 
 [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://gbdai.tistory.com/62)  
