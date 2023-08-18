@@ -67,3 +67,5 @@ Benchmark dataset 및 training dataset 관련 내용을 정리해놓은 곳입�
 ## Paper Map
 see paper NLP_paper map in [here](https://github.com/augustinLib/NLP-Paper-Map)
 
+## For NLP Beginners
+wiil be updated soon

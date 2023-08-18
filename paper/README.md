@@ -30,7 +30,7 @@ FEVER- a large-scale dataset for Fact Extraction and VERification
 
 [Finetuned Language Models Are Zero-Shot Learners](https://gbdai.tistory.com/70)  
 
-Generation-Augmented Retrieval for Open-Domain Question Answering
+Generation-Augmented Retrieval for Open-Domain Question Answering 
 
 [GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding](https://gbdai.tistory.com/51)  
 
