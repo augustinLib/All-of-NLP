@@ -40,7 +40,6 @@ directory 이름을 클릭하시면 해당 directory로 바로 이동할 수 있
     - [Training language models to follow instructions with human feedback](https://gbdai.tistory.com)  
     - [Using the Output Embedding to Improve Language Models](https://gbdai.tistory.com/48)
   
-
 <br>
 
 - [RNN](./RNN/)  
