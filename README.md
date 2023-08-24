@@ -18,6 +18,7 @@ directory 이름을 클릭하시면 해당 directory로 바로 이동할 수 있
     - [Big Bird: Transformers for Longer Sequences  ](https://gbdai.tistory.com/60)
     - [Dense Passage Retrieval for Open-Domain Question Answering](https://gbdai.tistory.com/72)
     - [Direct Fact Retrieval from Knowledge Graphs without Entity Linking](https://gbdai.tistory.com/73)
+    - [Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes]()
     - [Effective Approaches to Attention based Neural Machine Translation](https://gbdai.tistory.com/45)
     - [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://gbdai.tistory.com/62)
     - FEVER- a large-scale dataset for Fact Extraction and VERification

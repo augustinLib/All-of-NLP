@@ -22,6 +22,8 @@ Adam: A Method for Stochastic Optimization (Only Implement)
 
 [Direct Fact Retrieval from Knowledge Graphs without Entity Linking](https://gbdai.tistory.com/73)
 
+[Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes]()
+
 [Effective Approaches to Attention based Neural Machine Translation](https://gbdai.tistory.com/45)  
 
 [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://gbdai.tistory.com/62)  
