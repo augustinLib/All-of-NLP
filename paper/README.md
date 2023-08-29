@@ -50,6 +50,8 @@ Generation-Augmented Retrieval for Open-Domain Question Answering
 
 [Neural Machine Translation by Jointly Learning to Align and Translate](https://gbdai.tistory.com/44)  
 
+[Query Expansion by Prompting Large Language Models](https://gbdai.tistory.com/75)
+
 [REALM: Retrieval-Augmented Language Model Pre-Training](https://gbdai.tistory.com/63)  
 
 [REPLUG: Retrieval-Augmented Black-Box Language Models](https://gbdai.tistory.com/64)  
