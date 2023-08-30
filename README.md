@@ -32,6 +32,7 @@ directory 이름을 클릭하시면 해당 directory로 바로 이동할 수 있
     - [Multilingual Language Processing From Bytes](https://gbdai.tistory.com/58)
     - [Multitask Prompted Training Enables Zero-Shot Task Generalization](https://gbdai.tistory.com/71)  
     - [Neural Machine Translation by Jointly Learning to Align and Translate](https://gbdai.tistory.com/44)
+    - [Query Expansion by Prompting Large Language Models](https://gbdai.tistory.com/75)
     - [REALM: Retrieval-Augmented Language Model Pre-Training](https://gbdai.tistory.com/63)
     - [REPLUG: Retrieval-Augmented Black-Box Language Models](https://gbdai.tistory.com/64)  
     - [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://gbdai.tistory.com/67)  
